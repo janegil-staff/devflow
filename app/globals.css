@@ -353,10 +353,14 @@
 }
 
 /* Component utilities */
+/* Light mode styles */
 .card-wrapper {
   background-color: var(--light-900);
+  box-shadow: 0 2px 4px var(--dark-100);
 }
-.card-wrapper.dark {
+
+/* Dark mode styles when .dark is on a parent (e.g. <body class="dark">) */
+.dark .card-wrapper {
   background: linear-gradient(
     232deg,
     rgba(23, 28, 35, 0.41) 0%,
