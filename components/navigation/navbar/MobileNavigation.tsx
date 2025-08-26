@@ -54,7 +54,7 @@ const MobileNavigation = () => {
           <div className="flex flex-col gap-3 text-center">
             <SheetClose asChild>
               <Link href={ROUTES.SIGN_IN}>
-                <Button className="small-medium btn-secondary min-h-[41px] w-90 rounded-lg px-4 py-3 shadow-none">
+                <Button className="small-medium btn-secondary min-h-[41px] w-full rounded-lg px-4 py-3 shadow-none">
                   <span className="primary-text-gradient">Log In</span>
                 </Button>
               </Link>
@@ -62,7 +62,7 @@ const MobileNavigation = () => {
 
             <SheetClose asChild>
               <Link href={ROUTES.SIGN_UP}>
-                <Button className="small-medium light-border-2 btn-tertiary text-dark400_light900 min-h-[41px] w-90 rounded-lg border px-4 py-3 shadow-none">
+                <Button className="small-medium light-border-2 btn-tertiary text-dark400_light900 min-h-[41px] w-full rounded-lg border px-4 py-3 shadow-none">
                   Sign Up
                 </Button>
               </Link>
