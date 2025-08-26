@@ -505,6 +505,14 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+.custom-scrollbar {
+  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+}
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari */
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
